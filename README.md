@@ -12,7 +12,11 @@ open source
 3-Can Add Hashtags
 </sub>
 
-4 -Users/Photographers can like their/others photos.
-5 -Admin can set a photo contest and Photographers can perticipate in it.
-6 -Users can write blogs
-7 -Users can hire any photographer
+4 -Users/Photographers can like their/others 
+photos.
+5 -Admin can set a photo contest and Photographers can participate in 
+it.
+6 -Users can write 
+blogs
+7 -Users can hire any 
+photographer
