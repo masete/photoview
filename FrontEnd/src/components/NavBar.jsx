@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import profileImage from '../assets/heroimage1.jpg';
+import {AiTwotoneBell} from 'react-icons/ai';
+import {CgCross} from 'react-icons/cg';
 
 const NavBar = () => {
   return (
@@ -18,8 +21,18 @@ const NavBar = () => {
       
       <div>
         <ul className='md:flex'>
-          <li><button className='px-2 mx-2 border drop-shadow-2xl'>Create</button></li>
-          <li><p>Profile</p></li>
+          <li><button className='px-8 py-3 mx-6 my-2 border border-gray-200 rounded-xl bg-gray-100'>
+            
+                                                 
+            <p>Upload</p>
+              </button>
+          </li>
+          <li>
+             <AiTwotoneBell size={30} className='mx-6 my-4'/>
+          </li>
+          <li>
+            <img className='rounded-lg h-10 mx-6 my-4' src={profileImage} />
+          </li>
         </ul>
         
       </div>
