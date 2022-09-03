@@ -2,7 +2,11 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <div className='flex justify-between'>
+      <div>
+          <p>PhotoView</p>
+      </div>
+    </div>
   )
 }
 
