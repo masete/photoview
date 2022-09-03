@@ -1,5 +1,8 @@
 # photoview
-open source
+open source website to showcase photographers work.
+
+## Technologies used
+ReactJs, TailwindCSS, NodeJs, Express, mongodb
 
 ## Features
 
