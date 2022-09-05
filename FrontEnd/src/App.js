@@ -4,9 +4,10 @@ import SideBar from './components/SideBar';
 import Dashboard from './pages/Dashboard';
 
 function App() {
+  
   return (
     <>
-    <div className='bg-gray-100'>
+    <div>
       <NavBar />
       <SideBar />
       <Dashboard />
