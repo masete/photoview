@@ -7,10 +7,13 @@ import Dashboard from './Dashboard';
 const Timeline = () => {
   return (
     <>
-    <div>
+    <div className="bg-gray-background">
       <NavBar />
-      <SideBar />
-      <Dashboard />
+        <div className="grid grid-cols-3 gap-4 justify-between mx-auto max-w-screen-lg">
+          <SideBar />
+          {/* <Dashboard /> */}
+        </div>
+      
     </div>
     
     </>
