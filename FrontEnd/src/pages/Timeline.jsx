@@ -9,9 +9,15 @@ const Timeline = () => {
     <>
     <div className="bg-gray-background">
       <NavBar />
-        <div className="grid grid-cols-3 gap-4 justify-between mx-auto max-w-screen-lg">
-          <SideBar />
-          {/* <Dashboard /> */}
+        <div className="grid grid-cols-3 justify-between mx-auto max-w-screen-lg">
+          <section>
+            <SideBar />
+          </section>
+          
+          <section className='col-span-3'>
+            <Dashboard />
+          </section>
+          
         </div>
       
     </div>
