@@ -7,10 +7,10 @@ const Dashboard = () => {
       }, []);
     
   return (
-    <div className='pl-[350px] pt-[100px]'>
-        <div className='w-full h-full bg-gray-100'>
-            <p>Dashboard</p>
-        </div>
+    <div className='flex justify-between items-center space-x-2 mt-10 p-10 text-black right-0 border mx-1'>
+        
+            <p className='text-black'>Dashboard</p>
+        
         
     </div>
   )

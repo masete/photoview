@@ -5,7 +5,7 @@ import {CgCross} from 'react-icons/cg';
 
 const NavBar = () => {
   return (
-    <div className='flex justify-between items-center w-3/4 right-0 p-4 h-20 fixed text-black'>
+    <div className='flex justify-between items-center p-2 h-20 fixed text-black'>
       <form>
 
       <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
